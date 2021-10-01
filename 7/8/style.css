@@ -1,0 +1,35 @@
+body{
+    font-size: large;
+   
+    display: flex;
+    justify-content: center;
+}
+
+
+#nom{
+    margin-top: 20px;
+    margin-left: 83px;
+}
+#prenom{
+    margin-top: 20px;
+    margin-left: 83px;
+}
+
+#date{
+    margin-left: 20px;
+    margin-top: 20px;
+    
+
+}
+.page4{
+    margin-top: 20px;
+}
+.page5{
+    margin-top: 20px;
+}
+h2{
+   color: black;
+}
+#marj{
+    margin-left: 50px;
+}
