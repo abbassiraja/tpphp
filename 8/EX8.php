@@ -28,13 +28,14 @@
                 <input  id="date"  name="naissance" type="number" min="1900" max="2021" >
             </div>
             <div class="page4">
+                <form action="action.php" method="post">
                 <label >Votre sexe:</label>
                 
                 <label for="femme"  >Femme</label>
-                <input  type="radio"name="sexe" id="femme">
+                <input  type="radio"name="sexe" id="femme" value="Femme">
                 <label for="homme" >Homme</label>
-                <input   type="radio" name="sexe" id="homme">
-            
+                <input   type="radio" name="sexe" id="homme" value="Homme">
+            </form>
             </div>
             <div class="page5">
                <label for="">Votre catégorie:</label>
@@ -57,7 +58,7 @@
                 </select>
                 <div class="page5">
                     <button type="submit">valider</button>
-                    <button>Rénialiser</button>
+                    <button type="reset">Rénialiser</button>
                 </div>
         </div>
        

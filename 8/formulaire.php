@@ -4,8 +4,13 @@ if(isset($_POST['submit']));
 
 echo "Bonjour" . " ". $_POST['nom'] . " " . $_POST['prenom']; 
 echo '<br>';
+if(isset($_POST['submit']))  ;
+$num1=2021;
+$num2=$_POST['naissance'];
+$resultat=$num1-$num2;
 
-echo "Vous avez" . " "  . $_POST['naissance'] . " " ."ans";
+
+echo "Vous avez" . " "  . $resultat . " " ."ans";
 echo '<br>';
 echo "Vous etes un " . " "  . $_POST['sexe'] ;
 echo '<br>';
